@@ -12,11 +12,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "husky" : {
-    "hooks" : {
-      "applypatch-msg" : "echo \"[Husky] applypatch-msg\"",
-      "pre-applypatch" : "echo \"[Husky] pre-applypatch\"",
-      "post-applypatch" : "echo \"[Husky] post-applypatch\"",
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
       "pre-commit": "echo 'Running pre-commit hook'"
     }
   },
@@ -25,9 +25,11 @@
     "@typescript-eslint/parser": "^5.59.6",
     "eslint": "^8.40.0",
     "eslint-plugin-no-loops": "^0.3.0",
-    "husky": "^8.0.3",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "husky": "^8.0.3"
   }
 }
